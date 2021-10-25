@@ -1,0 +1,47 @@
+@import '../../cores/cores.scss';
+
+.Titulo {
+    width: 50%;
+    height: 64px;
+    padding: 5px;
+}
+.Nome{
+    margin-top: 16px;
+    font-size: 30px;
+    width: fit-content;
+    border: solid;
+    border-radius: 3px;
+    border-width: 3px;
+    border-color: $chumbo;
+    padding: 3px;
+    color: $bege;
+    background-color: $roxo;
+}
+.fundo {
+    width: 100%;
+    height: 83px;
+    left: 0px;
+    top: 0px;
+    background: $bege;
+    display: inline-flex;
+    border-bottom-color: $chumbo;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+}
+.itemMenu {
+    font-size: 30px;
+    padding: 5px;
+    float: right;
+    margin-top: 20px;
+    text-decoration: none;
+    color: $chumbo;
+}
+.itemMenu:hover {
+    color: $azul;
+}
+.itemMenu:active {
+    color: $vermelho;
+}
+.opcoes{
+    width: 50%;
+}

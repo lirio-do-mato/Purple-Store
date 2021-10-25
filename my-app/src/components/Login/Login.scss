@@ -1,0 +1,47 @@
+@import '../../cores/cores.scss';
+
+.geral{
+    width: 100%;
+    text-align: center;
+}
+form {
+    background-color: $bege;
+    margin: 7%;
+    margin-bottom: auto;
+    text-align: center;
+    font-size: 25px;
+    border-width: 5px;
+    border-radius: 1px;
+    border-style: solid;
+    border-color: $chumbo;
+}
+.texto{
+    width: 20%;
+    display: inline-block;   
+}
+.entrada{
+    width: 60%;
+    display: inline-block;  
+    border-radius: 2px;
+    border-color: $roxo; 
+    font-size: 20px;
+    height: 40px;
+}
+.formulario{
+    padding: 20px;
+    text-align: left;
+}
+.campo{
+    padding: 20px;
+}
+.submit{
+    background-color: $chumbo;
+    border-radius: 5px;
+    border-color: $roxo;
+    margin-bottom: 13px;
+    font-size: 30px;
+    color: $bege;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+button:hover {border-color: $azul;}
+button:active{border-color: $vermelho;}

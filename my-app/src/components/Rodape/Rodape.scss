@@ -1,0 +1,16 @@
+@import '../../cores/cores.scss';
+
+.rodape{
+    background-color: $laranja;
+    margin: 0;
+    border: solid;
+    border-color: $chumbo;
+    border-width: 1px;
+}
+footer{
+    text-align: center;
+    padding: 5px;
+}
+code {
+    margin: 10px;
+}

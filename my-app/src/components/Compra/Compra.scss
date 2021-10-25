@@ -1,0 +1,47 @@
+@import '../../cores/cores.scss';
+
+.fotoProduto{
+    width: 30%;
+    display: inline-block;
+}
+.informacoes{
+    padding: 40px;
+    vertical-align: top;
+    display: inline-block;
+    width: 60%;
+}
+.geralCompra{
+    background-color: $chumbo;
+    padding: 15px;
+    margin-top: 20px;
+}
+.conteudo{
+    vertical-align: text-top;
+    background-color: $bege;
+    padding: 10px;
+}
+.nomeProduto{
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    border-bottom: solid;
+    border-bottom-color: $chumbo;
+    border-bottom-width: 2px;
+}
+.precoProduto, .quantidadeProduto{
+    background-color: $chumbo;
+    color: $bege;
+    width: fit-content;
+}
+.descricaoProduto{
+    border: solid;
+    border-color: $chumbo;
+    border-width: 2px;
+    border-radius: 3px;
+}
+.btnCompra{
+    width: 20%;
+    height: 40%;
+    float: right;
+    font-size: 25px;
+}
